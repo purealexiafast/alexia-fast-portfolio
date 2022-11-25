@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+:root{
+    --header: #6894A6; 
+    --nav-heading: #513B47;
+    --headings: #AAC9D0;
+}
+
 html{
     height: 100%;
 }
@@ -12,21 +18,25 @@ body{
     min-height: 100%;
     line-height: 1.5;
     font-family: 'Ubuntu', sans-serif;
+    color: #22223B;
 }
 
 header{
-    background-color: #22223B;
+    background-color: var(--header);
+    max-height: 100px;
 
 
 }
 
 nav ul {
-    color: #9A8C98;
+    color: var(--nav-heading);
     display: flex;
     justify-content: flex-end;
     list-style: none;
     text-decoration:underline;
-    text-underline-offset: 15px;
+    text-underline-offset: 10px;
+    position: relative;
+    bottom: 40px;
     
 
 }
@@ -37,12 +47,30 @@ nav li{
 }
 
 h1{
-    background-color: #9A8C98;
+    background-color: var(--headings);
     color:#22223B;
     width: 25%;
     text-align: end;
-    padding: 10px 25px 10px 0px;
+    padding: 5px 25px 5px 0px;
     position: relative;
-    top: 35px;
-    font-size: 40px;
+    top: 20px;
+    font-size: 35px;
+}
+
+#background-heading-h2{
+    background-color: var(--headings);
+    width: 30%;
+    padding: 10px;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    font-size: 28px;
+    
+}
+
+#main-image{
+    max-height: 300px;
+    width:1225px;
+    object-fit: cover;
+    
 }
