@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    background-color: #22223B;
+
+
+}
+
+nav ul {
+    color: #9A8C98;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration:underline;
+    text-underline-offset: 15px;
+    
+
+}
+
+nav li{
+    margin: 0px 25px 25px 25px;
+    font-size: 30px;
+}
+
+h1{
+    background-color: #9A8C98;
+    color:#22223B;
+    width: 25%;
+    text-align: end;
+    padding: 10px 25px 10px 0px;
+    position: relative;
+    top: 35px;
+    font-size: 40px;
+}
