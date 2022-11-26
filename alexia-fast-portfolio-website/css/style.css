@@ -7,7 +7,7 @@
 :root{
     --medium: #6894A6; 
     --light: #AAC9D0;
-    --dark: #22223B;
+    --dark: black;
 }
 
 html{
@@ -28,7 +28,7 @@ header{
 
 h1{
     background-color: var(--light);
-    color:#22223B;
+    color: var(--dark);
     width: 25%;
     text-align: end;
     padding: 5px 25px 5px 0px;
@@ -40,10 +40,42 @@ h1{
 
 h2{
     font-size: 40px;
+    
 }
+
+h3{
+    background-color: var(--medium);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+h3:hover{
+    background-color: var(--light);
+} 
 
 section{
     margin-left: 30px;
+}
+
+p{
+    margin-right: 10px;
+}
+
+ article{
+    width: 30%;
+    height: auto;
+    margin: 5px; 
+ }
+
+ li a:hover{
+    background-color:var(--light);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;  
 }
 
 nav .nav-li{
@@ -56,51 +88,49 @@ ul .list{
     margin-left:50px;
 }
 
-li a:hover{
-    background-color:var(--light);
-    padding: 10px;
-    border-radius: 5px;
-    
-}
-
 .flex-box{
     display: flex;
 }
 
-.flex-box-article{
-    display: flex;
-
-}
-
-article{
-    display: flex;
-    margin-left: 300px;
-}
-
 .contact-list{
-    border: 3px solid var(--dark);
-    padding: 10px 25px 0px 25px;
-    border-radius: 5px;
-    position: relative;
-    bottom: 12px;
+   text-decoration: underline;
+   text-underline-offset: 10px;
 }
 
 .contact-list:hover{
     background-color:var(--light);
+    cursor: pointer;
 }
 
 .h2-border{
-    border-right: 3px solid var(--dark);
+    text-decoration: underline;
+    text-underline-offset: 10px;
     padding: 10px;
-    margin-left: 50px;
-
+    color: var(--dark);
+    margin: 20px;   
 }
+
+.placeholder-images{
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+    border:5px solid var(--medium);
+    padding-bottom: 8px;
+ }
+
+ .articles{
+    width: 40%;
+    height: auto;
+ }
+ 
+ .position-relative{
+     position:relative;
+ }
 
 #paragraph-spacing{
     margin-left: 50px;
     margin-top: 0px;
 }
-
 
 nav #nav-ul {
     color: var(--dark);
@@ -119,45 +149,48 @@ nav #nav-ul {
     left: 900px;
     bottom: 100px;
     font-size: 28px;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 }
 
 #main-image{
     max-height: 300px;
     width:1400px;
-    object-fit:cover;  
+    object-fit:cover;      
 }
 
-#contact{
-    padding-left:9px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-
-#contact-list li{
+#contact-ul li{
     list-style-type: none;
-    margin: 50px;
+    margin-right: 50px;
+    margin-left:30px;
+    margin-bottom: 30px;
     font-size: 20px;
 }
 
+
 #work{
-    margin-left:75px;
-    margin-top: 10px;
-    padding-right: 13px;
-    border-right:3px solid var(--dark);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: var(--dark);
+    margin: 10px;
 }
 
-article{
-
-    border: 3px solid var(--dark);
-}
-
-#article-1{
-    margin-left: 50px;
-}
 
 #flex-box-article{
     display:flex;
     flex-wrap: wrap;
 }
+
+#first-article{
+   width: 70%; 
+    
+}
+
+#first-image{
+    opacity: 50%;
+    width: 115%;
+    height: auto;
+    padding: 5px;
+    border:5px solid var(--medium);
+}
+
+
