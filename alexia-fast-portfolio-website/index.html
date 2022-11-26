@@ -24,15 +24,18 @@
         </header>
 
         <main>
-
-        <img id="main-image" src="images/purple.JPG" alt="purple brick wall">
       <!--  <h2 id="fullstack-heading-h2">Full Stack Web Developer</h2> -->
     
-        <section>
-            
-            <h2 class="h2-border">About Me</h2>
+        <section id="float-1">
+            <div>
+            <h2>About Me</h2>
             <br>
-            <div id="paragraph-spacing">
+            </div>
+            <img id="main-image" src="images/purple.JPG" alt="purple brick wall">
+            <br>
+        </section>
+        <section id="float-2">
+            <div>
                 <p>I am a full-stack web developer leveraging a background in the film and television industry to bring soft skills in communication, teamwork and adaptability to the table. Recently I earned a certificate as a full-stack developer from Carleton University, where I developed skills in HTML5, CSS3, JavaScript, jQuery, Bootstrap, Node.js, MySQL, MongoDB, React, GitHub, GitLab, Responsive Design and more. With a passion for developing apps and creating the most effective user experience on websites alike, I aim to contribute excellence to every team I work with.
                 <br>
                 <br>
@@ -53,43 +56,49 @@
                 <br>
         </section>
 
-        <section>
-            <h2 id="work">Work</h2>
-            <br>
-            <div id="flex-box-article">
+        <section class="flex-box">
+            <div>
+            <h2>Work</h2>
+            </div>
+        
+            <div>
+                <div class="flex-box">
             <article id="first-article">
-                <h3><a>Horiseon Webpage</a></h3>
+                <p class="p"><a><strong>Horiseon Website:</strong> Code Refractor</a></p>
                 <img id="first-image" src="images/horiseon-corporation.jpeg" alt="horiseon webpage">
-                <p></p>
+                
             </article>
             <article class="articles">
-                <h3><a>Place Holder</a></h3>
+                <p class="p"><a><strong>Place Holder:</strong> Ipsum</a></p>
+                <img class="placeholder-images" src="images/horiseon-corporation-2.jpg" alt="placeholder project">
+                
+            </article>
+
+            <article class="articles">
+                <p class="p"><a><strong>Place Holder:</strong> Ipsum</a></p>
                 <img class="placeholder-images" src="images/horiseon-corporation-2.jpg" alt="placeholder project">
                 <p></p>
             </article>
 
             <article class="articles">
-                <h3><a>Place Holder</a></h3>
-                <img class="placeholder-images" src="images/horiseon-corporation-2.jpg" alt="placeholder project">
-                <p></p>
-            </article>
-
-            <article class="articles">
-                <h3><a>Place Holder</a></h3>
+                <p class="p"><a><strong>Place Holder:</strong> Ipsum</a></p>
                 <img class="placeholder-images" src="images/horiseon-corporation-2.jpg" alt="placeholder project">
                 <p></p>      
             </article>
 
             <article class="articles">
-                <h3><a>Place Holder</a></h3>
+                <p class="p"><a><strong>Place Holder:</strong> Ipsum</a></p>
                 <img class="placeholder-images" src="images/horiseon-corporation-2.jpg" alt="placeholder project">
                 <p></p>
             </article>
-    
+            </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <h2 class="h2-border">Contact Me</h2>
+    <footer class="flex-box">
+        <div>
+        <h2 id="contact-margin">Contact Me</h2>
+        </div>
         <ul class="flex-box" id="contact-ul">
             <li>778-952-2858</li>
             <li>alexiafastproduction@gmail.com</li>
