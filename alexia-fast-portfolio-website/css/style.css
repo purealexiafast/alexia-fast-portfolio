@@ -24,6 +24,7 @@ body{
 header{
     background-color: var(--dark);
     max-height: 100px;
+    max-width: 2000px;
 }
 
 h1{
@@ -61,13 +62,14 @@ p{
     margin: 5px; 
  }
 
- .nav-li:hover{
+
+/* Class */
+
+.nav-li:hover{
     font-size: 30px;
     padding: 10px;
     cursor: pointer;  
 }
-
-/* Class */
 
 nav .nav-li{
     margin: 20px 25px 25px 25px;
@@ -121,7 +123,7 @@ ul .list{
  .contact-list:hover{
      background-color:var(--light);
      cursor: pointer;
-     padding: 5px;
+     padding: 10px;
  }
  
  /* ID */
@@ -136,6 +138,20 @@ nav #nav-ul {
     bottom: 40px;
 }
 
+#background-image{
+    height: 200px;
+    min-width: 2000px;
+}
+
+#cool-header{
+    background-color: var(--light);
+    padding: 10px;
+    display: inline;
+    position: relative;
+    left: 900px;
+    bottom: 70px;
+}
+
 #main-image{
     max-height: 220px;
     width:auto;
@@ -145,6 +161,8 @@ nav #nav-ul {
 
 #about-me{
     margin-left:115px;
+    position: relative;
+    top: 60px;
 }
 
 #me{
@@ -164,8 +182,9 @@ nav #nav-ul {
 }
 
 #work{
-    
-   
+    position: relative;
+    top: 38px;
+    left: 125px;  
 }
 
 #work-2-border{
@@ -200,17 +219,120 @@ nav #nav-ul {
 
 #contact-ul li{
     list-style-type: none;
-    margin-left: 50px;
-    margin-top: 8px;
-    margin-bottom: 30px;
-    font-size: 20px;
-    
+    position:relative;
+    bottom: 30px;
+    margin-right:10px;
+    margin-left: 30px;
+    font-size: 20px;  
+}
+
+#contact-ul{
+    margin-left: 130px;
+    width: 75%;
 }
 
 #contact-margin{
-    margin-left: 30px;
+    margin-left:118px;
     border-right:3px solid var(--dark);
-    padding-right: 50px;
+    padding-right: 10px;
+    position: relative;
+    bottom: 50px;
+}
+
+#contact-me{
+    position: relative;
+    left: 50px;
+}
+/* Media Querries max-height= 950 */
+
+@media screen and (max-width: 950px){
+    header{
+        max-height: 400px;
+        max-width: 950px;
+    }
+
+    h1{
+        min-width: 950px;
+        max-width: 950px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 70px;
+        padding: 0px;
+        
+    }
+
+    nav{
+        margin-right: 100px;
+        position: relative;
+        top: 50px;
+        right: 120px; 
+    }
+
+    .flex-box{
+        display:block;
+    }
+
+    .articles{
+        width: 93%;   
+    }
+
+
+    #float-2{
+        border-left: none;
+        border-top: 3px solid var(--dark);
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left:0px;
+        padding-top: 20px;
+    }
+
+    #float-1{
+        float:none;
+        margin: 0px;
+    }
+
+    #float-2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #main-image{
+        position:absolute;
+        bottom: 285px;
+        left: 30px;
+        width: auto;
+        height: 200px;  
+    }
+
+    #background-image{
+        max-width: 950px;
+    }
+
+    #about-me{
+        text-align: center;
+
+        margin-left:0px;
+        position: relative;
+        top: 0px;
+    }
+
+    #me{
+        margin-left: 0px;
+        display: inline;
+    }
+
+    #work{
+        position:none;
+        top: 0px;
+        left: 0px;
+        text-align: center;  
+    }
+
+    #work-2-border{
+        border-left:0;
+        margin-bottom: 20px;
+        border-top:3px solid var(--dark);
+    }
 }
 
 
