@@ -10,9 +10,9 @@ I learned a lot about opacity and z-index properties. I was able to use these pr
 
 View the screen shots below.
 
-<img src="images/screenshot1.jpg">
-<img src="images/screenshot2.jpg">
-<img src="images/screenshot3.jpg">
+<img src="porfolio/alexia-fast-potfolio/images/screenshot1.jpg">
+<img src="portfolio/alexia-fast-portfolio/images/screenshot2.jpg">
+<img src="portfolio/alexia-fast-portfolio/images/screenshot3.jpg">
 
 View the deployed website below.
 
