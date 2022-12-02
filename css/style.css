@@ -73,6 +73,12 @@ ul{
     margin-left:50px;
 }
 
+.work-title-position{
+    position: relative;
+    left: 60px;
+    top: 40px;
+}
+
 .link-color{
     color: var(--light);
  }
@@ -188,11 +194,6 @@ nav #nav-ul {
     padding-left: 20px;
 }
 
-#work-title-position{
-    position: relative;
-    left: 60px;
-    top: 40px;
-}
 
 #section2-border{
     border-left: 3px solid var(--dark);
