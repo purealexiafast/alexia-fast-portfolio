@@ -91,6 +91,10 @@ ul{
     z-index:1;
 }
 
+.line-length{
+    margin-right:150px;
+}
+
 .placeholder-images{
     width: 100%;
     opacity: 50%;  
@@ -264,7 +268,7 @@ nav #nav-ul {
 
 #contact-ul{
     
-    width: 75%;
+    
     justify-content: center;
     position: relative;
     top: 65px;
@@ -295,7 +299,7 @@ nav #nav-ul {
         height: 90px;
         text-align: center;
         font-size: 70px;
-        padding: 0px;     
+        padding: 0px;    
     }
 
     nav{
@@ -376,6 +380,7 @@ nav #nav-ul {
     border-right:none;
     border-top:3px solid var(--dark);
     margin-left: 20px;
+    
    }
 
    #contact-margin{
@@ -414,6 +419,20 @@ nav #nav-ul {
         position: relative;
         left: 250px;
         bottom: 0px;
+    }
+}
+
+@media screen and (max-width:517px) {
+
+    nav{
+        position: absolute;
+        left: 0px;
+    }
+
+    #cool-header{
+        font-size:20px;
+        left: 210px;
+        top: 10px;
     }
 
 }
